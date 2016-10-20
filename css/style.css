@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body {
+	font-family: 'Raleway', sans-serif;
+}
+h1 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	display: inline;
+}
+h1 a{
+	text-decoration: none;
+	color: black;
+}
+
+th{
+	cursor:pointer;
+	-webkit-transition: background 0.3s; /* Safari */
+    transition: background 0.3s;
+	-webkit-transition: color 0.3s; /* Safari */
+    transition: color 0.3s;
+	border: 1px solid black;
+}
+th:hover{
+	background: white;
+	color: black;
+	border: 1px solid white;
+}
+
+th.headerSortUp {
+	background-color: white;
+	color: black;
+}
+th.headerSortDown {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+tr.indexrow{
+	background: black;
+	color: white;
+	font-size: 20px;
+}
+
+tr.songrow{
+	border-bottom: 1px solid black;
+	-webkit-transition: background 0.3s; /* Safari */
+    transition: background 0.3s;
+}
+tr.songrow:hover{
+	height: 30px;
+	border-bottom: 3px solid black;
+	border-right: 2px solid black;
+}
+
+.★0bar:hover{background: #CAFEB8;}
+.★1bar:hover{background: #B9FEB3;}
+.★2bar:hover{background: #AEFEB6;}
+.★3bar:hover{background: #AAFEC1;}
+.★4bar:hover{background: #A5FECD;}
+.★5bar:hover{background: #A0FEDB;}
+.★6bar:hover{background: #9CFEEB;}
+.★7bar:hover{background: #97FEFC;}
+.★8bar:hover{background: #92ECFE;}
+.★9bar:hover{background: #8ED8FE;}
+.★10bar:hover{background: #89C1FE;}
+.★11bar:hover{background: #84AAFE;}
+.★12bar:hover{background: #8090FE;}
+.★13bar:hover{background: #817BFE;}
+.★14bar:hover{background: #9576FE;}
+.★15bar:hover{background: #AA72FE;}
+.★16bar:hover{background: #C16DFE;}
+.★17bar:hover{background: #DA68FE;}
+.★18bar:hover{background: #F464FE;}
+.★19bar:hover{background: #FE5FEC;}
+.★20bar:hover{background: #FE5ACF;}
+.★21bar:hover{background: #FE56AF;}
+.★22bar:hover{background: #FE518E;}
+.★23bar:hover{background: #FE4C6C;}
+.★24bar:hover{background: #FF4848;}
+.★25bar:hover{background: #FF4848;}
+.★foonbar:hover{background: #6C5C2B;}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+td img{
+	vertical-align: bottom;
+}
+
+td a{
+	display: block;
+	text-decoration: none;
+	color:black;
+}
+td {
+	text-align: center;
+	border-color: white;
+}
+
+footer{
+	text-align: right;
+}
+
+.cboxIframe{
+	width: 100%;
+	height: 100%;
+}
+
+/*라디오버튼 버튼화*/
+form {
+	vertical-align: bottom;
+}
+
+input[type=radio] {
+	margin:10px;
+	display: none;
+}
+input[type=radio] + label {
+	display:inline-block;
+    padding: 6px 16px;
+	cursor: pointer;
+	border: 1px solid black;
+	margin: 0px 0px 0px 0px;
+	-webkit-transition: background 0.3s; /* Safari */
+    transition: background 0.3s;
+	-webkit-transition: color 0.3s; /* Safari */
+    transition: color 0.3s;
+}
+input[type=radio]:checked + label { 
+    background-color:black;
+	color:white;
+}
+input[type=radio] + label:hover {
+	background: black;
+	color:white;
+}
+.header_div{
+	padding: 0px 0px 0px 0px;
+	border-bottom: 3px solid black;
+	margin-bottom: 15px;
+}
+.h1_div {
+	width: 90%;
+}
+.lang_div {
+	float: right;
+	display: inline;
+}
