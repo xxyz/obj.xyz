@@ -689,5 +689,21 @@
 		"date" : "2016-07-04",
 		"youtube" : "PPNXQ2zaE1A",
 		"new" : true
+	},
+	{
+		"title": "energy revival ",
+		"md5": "29a78a5d2a38801cc19f4576eb16b5c9",
+		"level": "?",
+		"artist": "KAH",
+		"artist_url": "https://twitter.com/kahkahcompose",
+		"url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=160&event=137",
+		"url_diff": "https://xxyz.github.io/objxyz/bms/energy_revival_XYZ.bms",
+		"comment": "고속 스크래치",
+		"comment_jp": "高速皿 ",
+		"total": "536",
+		"note": "1501",
+		"date" : "2021-12-03",
+		"youtube" : "VBNLOqcVjn8",
+		"new" : true
 	}
 ]
